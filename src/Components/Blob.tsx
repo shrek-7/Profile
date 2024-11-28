@@ -1,4 +1,4 @@
-import React, { DOMElement, ReactElement, ReactHTML, ReactNode, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 type Props = {}
 
@@ -19,7 +19,7 @@ const getBlobStyle = () => {
 	return coordinates;
 }
 
-const colors = ['#B4121B', '#EF036C', '#C5ADC5', '#FFAB00', '#9C27B0', '#a1e0d6', '#D2FF72', '#187bcd', '#F05A7E'];
+const colors = ['#EF036C', '#C5ADC5', '#FFAB00', '#9C27B0', '#a1e0d6', '#D2FF72', '#187bcd', '#F05A7E'];
 
 export default function Blob({ }: Props) {
 

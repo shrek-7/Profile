@@ -1,11 +1,10 @@
 import Card from './Components/Card';
 import './App.css'
-// import Blob from './assets/blob.svg';
 import Profile from './assets/profile.jpeg';
-import { BeakerIcon } from '@heroicons/react/24/solid'
 import SocialMediaLinks from './Components/SocialMediaLinks';
 import Header from './Components/Header';
 import Blob from './Components/Blob';
+import Skills from './Components/Skills';
 
 function App() {
 
@@ -32,10 +31,10 @@ function App() {
           <div className='relative h-full w-full place-content-center flex'>
             <img className=' filter grayscale size-60 rounded-full absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 object-cover object-bottom' src={Profile} alt="" />
             <Blob />
-            {/* <img src={Blob} alt="" /> */}
           </div>
         </Card>
       </div>
+      <Skills />
     </>
   )
 }
