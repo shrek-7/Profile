@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa'
 import { SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiMobx, SiNextdotjs, SiVite } from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'

@@ -10,12 +10,10 @@
 // 	)
 // }
 
-import { useState } from 'react';
-
 const Header = () => {
-	const [isMenuOpen, setIsMenuOpen] = useState(false)
+	// const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-	const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
+	// const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
 	return (
 		<header className="shadow-md p-10 text-left border-b border-gray-400">
@@ -34,14 +32,14 @@ const Header = () => {
 						Hamburger
 					</div>
 				</div>
-				{isMenuOpen && (
+				{/* {isMenuOpen && (
 					<div className="mt-4 md:hidden">
 						<a href="#about" className="block py-2 text-gray-300 hover:text-white transition-colors duration-200">About</a>
 						<a href="#skills" className="block py-2 text-gray-300 hover:text-white transition-colors duration-200">Skills</a>
 						<a href="#projects" className="block py-2 text-gray-300 hover:text-white transition-colors duration-200">Projects</a>
 						<a href="#contact" className="block py-2 text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
 					</div>
-				)}
+				)} */}
 			</nav>
 		</header>
 	)
